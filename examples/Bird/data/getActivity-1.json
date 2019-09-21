@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "engineVersion": 1,
+    "name": "getActivity",
+    "method": "GET",
+    "endpoint": "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/activity.json",
+    "requestHeaders": {},
+    "requestBody": {},
+    "caching": {
+        "age": 3600,
+        "key": ["sample","activity"]
+    }
+}
