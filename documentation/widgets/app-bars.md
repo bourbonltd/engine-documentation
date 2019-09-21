@@ -13,10 +13,10 @@ An app bar can be set in the appBar section of a template.
 ```json
 {
 	"type": "appBarWidget",
-	"leading": {...},
-	"center": {...},
-	"actions": {...},
-	"bottom": {...},
+	"leading": {},
+	"center": {},
+	"actions": {},
+	"bottom": {},
 	"bottomHeight": 50,
 	"backgroundColor": "white",
 	"pinned": false
@@ -30,10 +30,10 @@ The extended app bar contains the same properties as the `appBarWidget` plus `fl
 ```json
 {
 	"type": "extendedAppBarWidget",
-	"leading": {...},
-	"center": {...},
-	"actions": {...},
-	"bottom": {...},
+	"leading": {},
+	"center": {},
+	"actions": {},
+	"bottom": {},
 	"bottomHeight": 50,
 	"flexibleSpace": {},
 	"flexibleSpaceHeight": 100,

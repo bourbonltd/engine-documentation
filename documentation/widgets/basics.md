@@ -18,7 +18,7 @@ The only required properties are `type` and `component`.
 	"height": 150,
 	"backgroundImage": "$user.backgroundImage",
 	"flex": 1,
-	"component": {...}
+	"component": {}
 }
 ```
 
@@ -55,7 +55,7 @@ The behaviour property supports:
 	"type": "actionWidget",
 	"action": "/events",
 	"behaviour": "push",
-	"component": {...}
+	"component": {}
 }
 ```
 
@@ -69,8 +69,8 @@ The condition property supports: `>`, `<`, `==` & `in`. If no operator is specif
 {
 	"type": "conditionalWidget",
 	"condition": "$items > 2",
-	"true": {...},
-	"false": {...}
+	"true": {},
+	"false": {}
 }
 ```
 

@@ -15,7 +15,7 @@ Both `mainAxisAlignment` & `crossAxisAlignment` are optional.
 	"type": "fixedListWidget",
 	"mainAxisAlignment": 150,
 	"crossAxisAlignment": 150,
-	"components": [{...},{...}]
+	"components": [{},{}]
 }
 ```
 
@@ -34,7 +34,7 @@ Both `mainAxisAlignment` & `crossAxisAlignment` are optional.
 	"type": "fixedHorizontalListWidget",
 	"mainAxisAlignment": "start",
 	"crossAxisAlignment": "center",
-	"components": [{...},{...}]
+	"components": [{},{}]
 }
 ```
 
@@ -45,7 +45,7 @@ The fixed horizontal list scroll widget will take a number of components and dis
 {
 	"type": "fixedHorizontalListScrollWidget",
 	"height": 150,
-	"components": [{...},{...}]
+	"components": [{},{}]
 }
 ```
 
@@ -57,6 +57,6 @@ The fixed grid widget can be used to take a specified number of components and d
 	"type": "fixedGridWidget",
 	"itemPadding": "xs",
 	"columns": 2,
-	"components": [{...},{...}]
+	"components": [{},{}]
 }
 ```

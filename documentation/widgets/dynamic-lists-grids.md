@@ -19,7 +19,7 @@ The `crossAxisAlignment` property supports the following options:
 	"limit": 5,
 	"mainAxisAlignment": "spaceBetween",
 	"crossAxisAlignment": "start",
-	"template": {...}
+	"template": {}
 }
 ```
 
@@ -62,7 +62,7 @@ The grid widget is used to display a number of components from a datasource. The
 	"itemPadding": "xs",
 	"columns": 2,
 	"childAspectRatio": 1.5,
-	"dataSource": "",
-	"template": {...}
+	"dataSource": "$user.photos",
+	"template": {}
 }
 ```
