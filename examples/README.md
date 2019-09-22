@@ -1,3 +1,3 @@
-# Bird Example
+# Examples
 
-Bird demonstrates how users can fetch content from an API and lay it out in a popular & familar fashion.
+[Bird](Bird)
