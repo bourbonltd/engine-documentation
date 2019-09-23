@@ -45,9 +45,10 @@ The `textAlign` property supports: `center`, `left`, `right`, `end`, `start`, `j
 An action widget can be used to wrap any component and make it tappable.
 
 The behaviour property supports:
-- `push` which pushes a new route into the navigation stack.
-- `system` which offloads the action onto the operating system. Actions like `mailto:support@bourbon.sh` will open the default email client.
-- `back` which pops the navigation stack one step back.
+- `push` pushes a new route into the navigation stack.
+- `system` offloads the action onto the operating system. Actions like `mailto:support@bourbon.sh` will open the default email client.
+- `back` pops the navigation stack one step back.
+- `retain` replaces the current view with a new route.
 
 ### Example
 ```json
