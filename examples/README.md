@@ -1,4 +1,4 @@
 # Examples
 
-[Bird](Bird)
-[Banking](Banking)
+- [Bird](Bird)
+- [Banking](Banking)
