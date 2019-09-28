@@ -13,8 +13,8 @@ Both `mainAxisAlignment` & `crossAxisAlignment` are optional.
 ```json
 {
 	"type": "fixedListWidget",
-	"mainAxisAlignment": 150,
-	"crossAxisAlignment": 150,
+	"mainAxisAlignment": "start",
+	"crossAxisAlignment": "center",
 	"components": [{},{}]
 }
 ```
