@@ -2,6 +2,7 @@
 
 ## Examples
 - [Bird](examples/Bird)
+- [Banking](examples/Banking)
 
 ## Documentation
 - [Overview](documentation/)

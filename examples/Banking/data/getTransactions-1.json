@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "engineVersion": 1,
+    "name": "getTransactions",
+    "method": "GET",
+    "endpoint": "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/transactions.json",
+    "requestHeaders": {},
+    "requestBody": {},
+    "caching": {
+      "age": 3600,
+      "key": ["transaction"]
+    }
+  }

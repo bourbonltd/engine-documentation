@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "engineVersion": 1,
+    "route": "/cards",
+    "data": [],
+    "appBar": {
+        "type": "appBarWidget",
+        "backgroundColor": "mainBackground",
+        "pinned": false,
+        "center": {
+        "type": "textWidget",
+        "color": "mainText",
+        "text": "Cards",
+        "style": "headingXL"
+        }
+    },
+    "components": [
+        {
+            "type": "textWidget",
+            "text": ""
+        }
+    ]
+}
