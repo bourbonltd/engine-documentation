@@ -41,6 +41,23 @@ The `textAlign` property supports: `center`, `left`, `right`, `end`, `start`, `j
 }
 ```
 
+## Image
+The `fit` property supports: `none`, `fitWidth`, `cover`, `contain`, `scaleDown`, `fill`, `fitHeight` and defaults to `cover`.
+
+`width`, `cornerRadius` & `fadeInDuration` are optional.
+
+```json
+{
+	"type": "imageWidget",
+	"image": "$person.imageUrl",
+	"fit": "cover",
+	"height": 50,
+	"width": 50,
+	"cornerRadius": 25,
+	"fadeInDuration": 200
+}
+```
+
 ## Action
 An action widget can be used to wrap any component and make it tappable.
 
