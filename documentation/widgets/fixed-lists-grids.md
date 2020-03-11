@@ -50,13 +50,14 @@ The fixed horizontal list scroll widget will take a number of components and dis
 ```
 
 ## Fixed Grid
-The fixed grid widget can be used to take a specified number of components and display them on a grid. The `itemPadding` property is used to add a padding between the items and is optional.
+The fixed grid widget can be used to take a specified number of components and display them on a grid. The `itemPadding` property is used to add a padding between the items and is optional. `childAspectRatio` defaults to 1.0 when unspecified.
 
 ```json
 {
 	"type": "fixedGridWidget",
 	"itemPadding": "xs",
 	"columns": 2,
+	"childAspectRatio": 1.5,
 	"components": [{},{}]
 }
 ```

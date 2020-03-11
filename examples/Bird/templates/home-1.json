@@ -1,198 +1,198 @@
 {
-    "version": 1,
-    "engineVersion": 1,
-    "route": "/home",
-    "data": [
-        {
-            "name": "stories",
-            "query": "getStories",
-            "version": 1
-        },
-        {
-            "name": "activity",
-            "query": "getActivity",
-            "version": 1
-        }
-    ],
-    "appBar": {
-        "type": "appBarWidget",
-        "backgroundColor": "card",
-        "pinned": false,
-        "center": {
-            "type": "textWidget",
-            "color": "primaryMain",
-            "text": "bird",
-            "style": "headingXXL"
-        }
+  "version": 1,
+  "engineVersion": 1,
+  "route": "/home",
+  "data": [
+    {
+      "name": "stories",
+      "query": "getStories",
+      "version": 1
     },
-    "components": [
-        {
-            "type": "blockWidget",
-            "padding": ["m","l","","m"],
-            "component": {
+    {
+      "name": "activity",
+      "query": "getActivity",
+      "version": 1
+    }
+  ],
+  "appBar": {
+    "type": "appBarWidget",
+    "backgroundColor": "card",
+    "pinned": false,
+    "center": {
+      "type": "textWidget",
+      "color": "primaryMain",
+      "text": "bird",
+      "style": "headingXXL"
+    }
+  },
+  "components": [
+    {
+      "type": "blockWidget",
+      "padding": ["m","l","","m"],
+      "components": [{
+        "type": "textWidget",
+        "color": "primaryMain",
+        "text": "Stories",
+        "style": "headingXL"
+      }]
+    },
+    {
+      "type": "horizontalListScrollWidget",
+      "height": 127,
+      "dataSource": "$stories",
+      "template": {
+        "type": "blockWidget",
+        "padding": ["m","","",""],
+        "components": [{
+          "type": "fixedListWidget",
+          "crossAxisAlignment": "center",
+          "components": [
+            {
+              "type": "imageWidget",
+              "image": "$stories.image",
+              "cornerRadius": 40,
+              "height": 80,
+              "width": 80,
+              "fadeInDuration": 200
+            },
+            {
+              "type": "blockWidget",
+              "padding": ["","s","",""],
+              "components": [{
                 "type": "textWidget",
-                "color": "primaryMain",
-                "text": "Stories",
-                "style": "headingXL"
+                "text": "$stories.name",
+                "color": "mainText",
+                "style": "headingXS",
+                "textAlign": "center"
+              }]
             }
-        },
-        {
-            "type": "horizontalListScrollWidget",
-            "height": 127,
-            "dataSource": "$stories",
-            "template": {
+          ]
+        }]
+      }
+    },
+    {
+      "type": "blockWidget",
+      "padding": ["m","l","","m"],
+      "components": [{
+        "type": "textWidget",
+        "color": "primaryMain",
+        "text": "Activity",
+        "style": "headingXL"
+      }]
+    },
+    {
+      "type": "listWidget",
+      "dataSource": "$activity",
+      "crossAxisAlignment": "start",
+      "mainAxisAlignment": "end",
+      "template": {
+        "type": "blockWidget",
+        "padding": ["m","","m","l"],
+        "components": [{
+          "type": "blockWidget",
+          "backgroundColor": "card",
+          "borderRadius": 20,
+          "borderWidth": 1,
+          "components": [{
+            "type": "fixedListWidget",
+            "components": [
+              {
                 "type": "blockWidget",
-                "padding": ["m","","",""],
-                "component": {
-                    "type": "fixedListWidget",
-                    "crossAxisAlignment": "center",
-                    "components": [
-                        {
-                            "type": "imageWidget",
-                            "image": "$stories.image",
-                            "cornerRadius": 40,
-                            "height": 80,
-                            "width": 80,
-                            "fadeInDuration": 200
-                        },
-                        {
-                            "type": "blockWidget",
-                            "padding": ["","s","",""],
-                            "component": {
-                                "type": "textWidget",
-                                "text": "$stories.name",
-                                "color": "mainText",
-                                "style": "headingXS",
-                                "textAlign": "center"
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "type": "blockWidget",
-            "padding": ["m","l","","m"],
-            "component": {
-                "type": "textWidget",
-                "color": "primaryMain",
-                "text": "Activity",
-                "style": "headingXL"
-            }
-        },
-        {
-            "type": "listWidget",
-            "dataSource": "$activity",
-            "crossAxisAlignment": "start",
-            "mainAxisAlignment": "end",
-            "template": {
-                "type": "blockWidget",
-                "padding": ["m","","m","l"],
-                "component": {
-                    "type": "blockWidget",
-                    "backgroundColor": "card",
-                    "borderRadius": 20,
-                    "borderWidth": 1,
-                    "component": {
+                "padding": ["m","m","m",""],
+                "components": [{
+                  "type": "fixedHorizontalListWidget",
+                  "crossAxisAlignment": "center",
+                  "components": [
+                    {
+                      "type": "blockWidget",
+                      "padding": ["","","s",""],
+                      "components": [{
+                        "type": "imageWidget",
+                        "image": "$activity.profileImage",
+                        "height": 40,
+                        "width": 40,
+                        "cornerRadius": 20
+                      }]
+                    },
+                    {
+                      "type": "blockWidget",
+                      "flex": 1,
+                      "components": [{
                         "type": "fixedListWidget",
                         "components": [
-                            {
-                                "type": "blockWidget",
-                                "padding": ["m","m","m",""],
-                                "component": {
-                                    "type": "fixedHorizontalListWidget",
-                                    "crossAxisAlignment": "center",
-                                    "components": [
-                                        {
-                                            "type": "blockWidget",
-                                            "padding": ["","","s",""],
-                                            "component": {
-                                                "type": "imageWidget",
-                                                "image": "$activity.profileImage",
-                                                "height": 40,
-                                                "width": 40,
-                                                "cornerRadius": 20
-                                            }
-                                        },
-                                        {
-                                            "type": "blockWidget",
-                                            "flex": 1,
-                                            "component": {
-                                                "type": "fixedListWidget",
-                                                "components": [
-                                                    {
-                                                        "type": "textWidget",
-                                                        "text": "$activity.fullName",
-                                                        "color": "mainText",
-                                                        "style": "headingXS"
-                                                    },
-                                                    {
-                                                        "type": "textWidget",
-                                                        "text": "$activity.location",
-                                                        "color": "mainText",
-                                                        "style": "bodyXS",
-                                                        "maxLines": 1,
-                                                        "overflow": "ellipsis"
-                                                    }
-                                                ]
-                                            }
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "type": "blockWidget",
-                                "padding": ["","m","",""],
-                                "component": {
-                                    "type": "conditionalWidget",
-                                    "condition": "$activity.images > 1",
-                                    "true": {
-                                        "type": "horizontalListScrollWidget",
-                                        "height": 360,
-                                        "dataSource": "$activity.images",
-                                        "template": {
-                                            "type": "blockWidget",
-                                            "padding": ["","","m",""],
-                                            "component": {
-                                                "type": "imageWidget",
-                                                "image": "$activity.images.image",
-                                                "cornerRadius": 10,
-                                                "height": 360,
-                                                "width": 250
-                                            }
-                                        }
-                                    },
-                                    "false": {
-                                        "type": "listWidget",
-                                        "height": 360,
-                                        "dataSource": "$activity.images",
-                                        "template": {
-                                            "type": "fixedListWidget",
-                                            "components": [
-                                                {
-                                                    "type": "imageWidget",
-                                                    "image": "$activity.images.image",
-                                                    "height": 360
-                                                },
-                                                {
-                                                    "type": "blockWidget",
-                                                    "padding": ["m","m","m","m"],
-                                                    "component": {
-                                                        "type": "textWidget",
-                                                        "text": "$activity.images.description",
-                                                        "color": "mainText",
-                                                        "style": "bodyL"
-                                                    }
-                                                }
-                                            ]
-                                        }
-                                    }
-                                }
-                            }
+                          {
+                            "type": "textWidget",
+                            "text": "$activity.fullName",
+                            "color": "mainText",
+                            "style": "headingXS"
+                          },
+                          {
+                            "type": "textWidget",
+                            "text": "$activity.location",
+                            "color": "mainText",
+                            "style": "bodyXS",
+                            "maxLines": 1,
+                            "overflow": "ellipsis"
+                          }
                         ]
+                      }]
                     }
-                }
-            }
-        }
-    ]
+                  ]
+                }]
+              },
+              {
+                "type": "blockWidget",
+                "padding": ["","m","",""],
+                "components": [{
+                  "type": "conditionalWidget",
+                  "condition": "$activity.images > 1",
+                  "true": {
+                    "type": "horizontalListScrollWidget",
+                    "height": 360,
+                    "dataSource": "$activity.images",
+                    "template": {
+                      "type": "blockWidget",
+                      "padding": ["","","m",""],
+                      "components": [{
+                        "type": "imageWidget",
+                        "image": "$activity.images.image",
+                        "cornerRadius": 10,
+                        "height": 360,
+                        "width": 250
+                      }]
+                    }
+                  },
+                  "false": {
+                    "type": "listWidget",
+                    "height": 360,
+                    "dataSource": "$activity.images",
+                    "template": {
+                      "type": "fixedListWidget",
+                      "components": [
+                        {
+                          "type": "imageWidget",
+                          "image": "$activity.images.image",
+                          "height": 360
+                        },
+                        {
+                          "type": "blockWidget",
+                          "padding": ["m","m","m","m"],
+                          "components": [{
+                            "type": "textWidget",
+                            "text": "$activity.images.description",
+                            "color": "mainText",
+                            "style": "bodyL"
+                          }]
+                        }
+                      ]
+                    }
+                  }
+                }]
+              }
+            ]
+          }]
+        }]
+      }
+    }
+  ]
 }

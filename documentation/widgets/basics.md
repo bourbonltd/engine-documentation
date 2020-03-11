@@ -3,7 +3,7 @@
 ## Block
 The block widget is a jack of all trades. It can be used to give padding, create rounded corners, fit and scale with flex and apply background colors / images.
 
-The only required properties are `type` and `component`.
+The only required properties are `type` and `components`.
 
 ### Example
 ```json
@@ -18,7 +18,7 @@ The only required properties are `type` and `component`.
 	"height": 150,
 	"backgroundImage": "$user.backgroundImage",
 	"flex": 1,
-	"component": {}
+	"components": []
 }
 ```
 

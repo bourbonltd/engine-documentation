@@ -1,82 +1,82 @@
 {
-    "friendlyName": "Demo",
-    "version": 1,
-    "engineVersion": 1,
-    "style": {
-        "colors": [
-            {
-                "name": "primaryMain",
-                "value": "#FE5F55"
-            },
-            {
-                "name": "card",
-                "value": "#F9FFEA"
-            },
-            {
-                "name": "mainText",
-                "value": "#473D40"
-            }
-        ],
-        "fonts": [
-            {
-                "name": "headingXXL",
-                "font": "OpenSans-ExtraBold",
-                "size": 28,
-                "weight": 900
-            },
-            {
-                "name": "headingXL",
-                "font": "OpenSans-Bold",
-                "size": 22,
-                "weight": 900
-            },
-            {
-                "name": "headingXS",
-                "font": "OpenSans-Bold",
-                "size": 12,
-                "weight": 900
-            },
-            {
-                "name": "bodyXS",
-                "font": "OpenSans-Regular",
-                "size": 12,
-                "weight": 400,
-                "lineHeight": 1.25
-            },
-            {
-                "name": "bodyL",
-                "font": "OpenSans-Regular",
-                "size": 16,
-                "weight": 400,
-                "lineHeight": 1.1
-            }
-        ]
-    },
-    "assets": {
-        "fonts": [
-            "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/fonts/OpenSans-Regular.ttf",
-            "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/fonts/OpenSans-Bold.ttf",
-            "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/fonts/OpenSans-ExtraBold.ttf"
-        ]
-    },
-    "menu": {
-        "style": "none",
-        "mainRoute": "/home"
-    },
-    "dataDefinitions": [
-        {
-            "name": "getStories",
-            "version": 1
-        },
-        {
-            "name": "getActivity",
-            "version": 1
-        }
+  "friendlyName": "Demo",
+  "version": 1,
+  "engineVersion": 1,
+  "style": {
+    "colors": [
+      {
+        "name": "primaryMain",
+        "value": "#FE5F55"
+      },
+      {
+        "name": "card",
+        "value": "#F9FFEA"
+      },
+      {
+        "name": "mainText",
+        "value": "#473D40"
+      }
     ],
-    "templates": [
-        {
-            "route": "/home",
-            "version": 1
-        }
+    "fonts": [
+      {
+        "name": "headingXXL",
+        "font": "OpenSans-ExtraBold",
+        "size": 28,
+        "weight": 900
+      },
+      {
+        "name": "headingXL",
+        "font": "OpenSans-Bold",
+        "size": 22,
+        "weight": 900
+      },
+      {
+        "name": "headingXS",
+        "font": "OpenSans-Bold",
+        "size": 12,
+        "weight": 900
+      },
+      {
+        "name": "bodyXS",
+        "font": "OpenSans-Regular",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 1.25
+      },
+      {
+        "name": "bodyL",
+        "font": "OpenSans-Regular",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 1.1
+      }
     ]
+  },
+  "assets": {
+    "fonts": [
+      "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/fonts/OpenSans-Regular.ttf",
+      "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/fonts/OpenSans-Bold.ttf",
+      "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/bird/fonts/OpenSans-ExtraBold.ttf"
+    ]
+  },
+  "menu": {
+    "style": "none",
+    "mainRoute": "/home"
+  },
+  "dataDefinitions": [
+    {
+      "name": "getStories",
+      "version": 1
+    },
+    {
+      "name": "getActivity",
+      "version": 1
+    }
+  ],
+  "templates": [
+    {
+      "route": "/home",
+      "version": 1
+    }
+  ]
 }

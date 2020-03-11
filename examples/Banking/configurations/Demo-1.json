@@ -1,167 +1,167 @@
 {
-    "friendlyName": "Demo",
-    "version": 1,
-    "engineVersion": 1,
-    "style": {
-      "padding": [
-        {
-          "name": "xs",
-          "value": 4
-        },
-        {
-          "name": "s",
-          "value": 8
-        },
-        {
-          "name": "m",
-          "value": 12
-        },
-        {
-          "name": "l",
-          "value": 16
-        },
-        {
-          "name": "topActionBar",
-          "value": 88
-        },
-        {
-          "name": "bottomActionBarItems",
-          "value": 20
-        }
-      ],
-      "colors": [
-        {
-          "name": "mainBackground",
-          "value": "#FFFFFF"
-        },
-        {
-          "name": "altBackground",
-          "value": "#FCFCFC"
-        },
-        {
-          "name": "mainText",
-          "value": "#00171F"
-        },
-        {
-          "name": "altText",
-          "value": "#007EA7"
-        },
-        {
-          "name": "actionText",
-          "value": "#003459"
-        },
-        {
-          "name": "altActionText",
-          "value": "#737373"
-        },
-        {
-          "name": "actionBackground",
-          "value": "#003459"
-        },
-        {
-          "name": "actionIcon",
-          "value": "#FFFFFF"
-        }
-      ],
-      "fonts": [
-        {
-          "name": "headingXXL",
-          "font": "OpenSans-SemiBold",
-          "size": 28,
-          "weight": 600
-        },
-        {
-          "name": "headingXL",
-          "font": "OpenSans-SemiBold",
-          "size": 22,
-          "weight": 600
-        },
-        {
-          "name": "headingL",
-          "font": "OpenSans-SemiBold",
-          "size": 18,
-          "weight": 600
-        },
-        {
-          "name": "bodyXS",
-          "font": "OpenSans-Regular",
-          "size": 12,
-          "weight": 400,
-          "lineHeight": 1.25
-        }
-      ]
-    },
-    "assets": {
-      "fonts": [
-        "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/fonts/OpenSans-Regular.ttf",
-        "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/fonts/OpenSans-SemiBold.ttf",
-        "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/fonts/icofont.ttf"
-      ]
-    },
-    "menu": {
-      "style": "bottom",
-      "bottomMenu": {
-        "backgroundColor": "altBackground",
-        "foregroundColor": "altActionText",
-        "selectedColor": "actionText",
-        "items": [
-          {
-            "name": "Accounts",
-            "route": "/accounts",
-            "textStyle": "bodyXS",
-            "iconName": "f024",
-            "iconSize": 24,
-            "iconFont": "IcoFont"
-          },
-          {
-            "name": "Reports",
-            "route": "/reports",
-            "textStyle": "bodyXS",
-            "iconName": "e973",
-            "iconSize": 24,
-            "iconFont": "IcoFont"
-          },
-          {
-            "name": "Cards",
-            "route": "/cards",
-            "textStyle": "bodyXS",
-            "iconName": "eef4",
-            "iconSize": 24,
-            "iconFont": "IcoFont"
-          },
-          {
-            "name": "Dashboard",
-            "route": "/dashboard",
-            "textStyle": "bodyXS",
-            "iconName": "ef51",
-            "iconSize": 24,
-            "iconFont": "IcoFont"
-          }
-        ]
-      }
-    },
-    "dataDefinitions": [
+  "friendlyName": "Demo",
+  "version": 1,
+  "engineVersion": 1,
+  "style": {
+    "padding": [
       {
-        "name": "getTransactions",
-        "version": 1
+        "name": "xs",
+        "value": 4
+      },
+      {
+        "name": "s",
+        "value": 8
+      },
+      {
+        "name": "m",
+        "value": 12
+      },
+      {
+        "name": "l",
+        "value": 16
+      },
+      {
+        "name": "topActionBar",
+        "value": 88
+      },
+      {
+        "name": "bottomActionBarItems",
+        "value": 20
       }
     ],
-    "templates": [
+    "colors": [
       {
-        "route": "/accounts",
-        "version": 1
+        "name": "mainBackground",
+        "value": "#FFFFFF"
       },
       {
-        "route": "/reports",
-        "version": 1
+        "name": "altBackground",
+        "value": "#FCFCFC"
       },
       {
-        "route": "/cards",
-        "version": 1
+        "name": "mainText",
+        "value": "#00171F"
       },
       {
-        "route": "/dashboard",
-        "version": 1
+        "name": "altText",
+        "value": "#007EA7"
+      },
+      {
+        "name": "actionText",
+        "value": "#003459"
+      },
+      {
+        "name": "altActionText",
+        "value": "#737373"
+      },
+      {
+        "name": "actionBackground",
+        "value": "#003459"
+      },
+      {
+        "name": "actionIcon",
+        "value": "#FFFFFF"
+      }
+    ],
+    "fonts": [
+      {
+        "name": "headingXXL",
+        "font": "OpenSans-SemiBold",
+        "size": 28,
+        "weight": 600
+      },
+      {
+        "name": "headingXL",
+        "font": "OpenSans-SemiBold",
+        "size": 22,
+        "weight": 600
+      },
+      {
+        "name": "headingL",
+        "font": "OpenSans-SemiBold",
+        "size": 18,
+        "weight": 600
+      },
+      {
+        "name": "bodyXS",
+        "font": "OpenSans-Regular",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 1.25
       }
     ]
-  }
+  },
+  "assets": {
+    "fonts": [
+      "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/fonts/OpenSans-Regular.ttf",
+      "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/fonts/OpenSans-SemiBold.ttf",
+      "https://ams3.digitaloceanspaces.com/bourbon-assets-dev/demos/banking/fonts/icofont.ttf"
+    ]
+  },
+  "menu": {
+    "style": "bottom",
+    "bottomMenu": {
+      "backgroundColor": "altBackground",
+      "foregroundColor": "altActionText",
+      "selectedColor": "actionText",
+      "items": [
+        {
+          "name": "Accounts",
+          "route": "/accounts",
+          "textStyle": "bodyXS",
+          "iconName": "f024",
+          "iconSize": 24,
+          "iconFont": "IcoFont"
+        },
+        {
+          "name": "Reports",
+          "route": "/reports",
+          "textStyle": "bodyXS",
+          "iconName": "e973",
+          "iconSize": 24,
+          "iconFont": "IcoFont"
+        },
+        {
+          "name": "Cards",
+          "route": "/cards",
+          "textStyle": "bodyXS",
+          "iconName": "eef4",
+          "iconSize": 24,
+          "iconFont": "IcoFont"
+        },
+        {
+          "name": "Dashboard",
+          "route": "/dashboard",
+          "textStyle": "bodyXS",
+          "iconName": "ef51",
+          "iconSize": 24,
+          "iconFont": "IcoFont"
+        }
+      ]
+    }
+  },
+  "dataDefinitions": [
+    {
+      "name": "getTransactions",
+      "version": 1
+    }
+  ],
+  "templates": [
+    {
+      "route": "/accounts",
+      "version": 1
+    },
+    {
+      "route": "/reports",
+      "version": 1
+    },
+    {
+      "route": "/cards",
+      "version": 1
+    },
+    {
+      "route": "/dashboard",
+      "version": 1
+    }
+  ]
+}
