@@ -21,7 +21,7 @@ Templates define what the view should render, this can be a simple list showing 
 
 The most important items within a template are Components & Data
 
-[Example](../examples/Bird/templates/Home-1.json) template.
+[Example](../examples/Bird/templates/home-1.json) template.
 
 ## Data Definitions
 
