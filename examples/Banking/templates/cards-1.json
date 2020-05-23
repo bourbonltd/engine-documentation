@@ -14,6 +14,9 @@
       "style": "headingXL"
     }
   },
+  "settings": {
+    "backgroundColor": "mainBackground"
+  },
   "components": [
     {
       "type": "textWidget",

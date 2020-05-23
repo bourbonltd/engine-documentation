@@ -8,6 +8,8 @@
   "requestBody": {},
   "caching": {
     "age": 3600,
-    "key": ["transaction"]
+    "key": [
+      "transaction"
+    ]
   }
 }

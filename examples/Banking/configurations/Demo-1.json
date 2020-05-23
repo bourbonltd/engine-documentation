@@ -68,19 +68,22 @@
         "name": "headingXXL",
         "font": "OpenSans-SemiBold",
         "size": 28,
-        "weight": 600
+        "weight": 600,
+        "lineHeight": 1
       },
       {
         "name": "headingXL",
         "font": "OpenSans-SemiBold",
         "size": 22,
-        "weight": 600
+        "weight": 600,
+        "lineHeight": 1
       },
       {
         "name": "headingL",
         "font": "OpenSans-SemiBold",
         "size": 18,
-        "weight": 600
+        "weight": 600,
+        "lineHeight": 1
       },
       {
         "name": "bodyXS",

@@ -3,6 +3,28 @@
   "version": 1,
   "engineVersion": 1,
   "style": {
+    "padding": [
+      {
+        "name": "xs",
+        "value": 4
+      },
+      {
+        "name": "s",
+        "value": 8
+      },
+      {
+        "name": "m",
+        "value": 16
+      },
+      {
+        "name": "l",
+        "value": 24
+      },
+      {
+        "name": "xl",
+        "value": 32
+      }
+    ],
     "colors": [
       {
         "name": "primaryMain",
@@ -15,6 +37,10 @@
       {
         "name": "mainText",
         "value": "#473D40"
+      },
+      {
+        "name": "background",
+        "value": "#FFFFFF"
       }
     ],
     "fonts": [
@@ -22,32 +48,30 @@
         "name": "headingXXL",
         "font": "OpenSans-ExtraBold",
         "size": 28,
-        "weight": 900
+        "lineHeight": 1
       },
       {
         "name": "headingXL",
         "font": "OpenSans-Bold",
         "size": 22,
-        "weight": 900
+        "lineHeight": 1
       },
       {
         "name": "headingXS",
         "font": "OpenSans-Bold",
         "size": 12,
-        "weight": 900
+        "lineHeight": 1
       },
       {
         "name": "bodyXS",
         "font": "OpenSans-Regular",
         "size": 12,
-        "weight": 400,
         "lineHeight": 1.25
       },
       {
         "name": "bodyL",
         "font": "OpenSans-Regular",
         "size": 16,
-        "weight": 400,
         "lineHeight": 1.1
       }
     ]

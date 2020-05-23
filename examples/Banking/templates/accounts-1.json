@@ -25,249 +25,355 @@
     "actions": [
       {
         "type": "blockWidget",
-        "padding": ["","","l",""],
-        "components": [{
-          "type": "iconWidget",
-          "color": "mainText",
-          "value": "ed12",
-          "size": 24,
-          "font": "IcoFont"
-        }]
+        "padding": [
+          "",
+          "",
+          "l",
+          ""
+        ],
+        "components": [
+          {
+            "type": "iconWidget",
+            "color": "mainText",
+            "value": "ed12",
+            "size": 24,
+            "font": "IcoFont"
+          }
+        ]
       }
     ],
     "flexibleSpace": {
       "type": "blockWidget",
       "backgroundColor": "altBackground",
-      "components": [{
-        "type": "textWidget",
-        "text": ""
-      }]
+      "components": [
+        {
+          "type": "textWidget",
+          "text": ""
+        }
+      ]
     },
     "center": {
       "type": "blockWidget",
-      "padding": ["","","","topActionBar"],
-      "components": [{
-        "type": "textWidget",
-        "color": "mainText",
-        "text": "€ 150.00",
-        "style": "headingXXL"
-      }]
+      "padding": [
+        "",
+        "",
+        "",
+        "topActionBar"
+      ],
+      "components": [
+        {
+          "type": "textWidget",
+          "color": "mainText",
+          "text": "€ 150.00",
+          "style": "headingXXL"
+        }
+      ]
     },
     "bottom": {
       "type": "blockWidget",
-      "padding": ["","","","bottomActionBarItems"],
-      "components": [{
-        "type": "fixedHorizontalListWidget",
-        "mainAxisAlignment": "spaceEvenly",
-        "components": [
-          {
-            "type": "actionWidget",
-            "behaviour": "native",
-            "action": "Hello Native",
-            "component": {
-              "type": "fixedListWidget",
-              "mainAxisAlignment": "center",
-              "crossAxisAlignment": "center",
-              "components": [
-                {
-                  "type": "blockWidget",
-                  "backgroundColor": "actionBackground",
-                  "borderColor": "black",
-                  "borderWidth": 1,
-                  "borderRadius": 20,
-                  "components": [{
+      "padding": [
+        "",
+        "",
+        "",
+        "bottomActionBarItems"
+      ],
+      "components": [
+        {
+          "type": "fixedHorizontalListWidget",
+          "mainAxisAlignment": "spaceEvenly",
+          "components": [
+            {
+              "type": "actionWidget",
+              "behaviour": "native",
+              "action": "Hello Native",
+              "component": {
+                "type": "fixedListWidget",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "components": [
+                  {
                     "type": "blockWidget",
-                    "padding": ["s","s","s","s"],
-                    "components": [{
-                      "type": "iconWidget",
-                      "color": "actionIcon",
-                      "value": "efc2",
-                      "size": 24,
-                      "font": "IcoFont"
-                    }]
-                  }]
-                },
-                {
-                  "type": "blockWidget",
-                  "padding": ["", "s", "", ""],
-                  "components": [{
-                    "type": "textWidget",
-                    "text": "Deposit",
-                    "style": "headingS",
-                    "color": "actionText"
-                  }]
-                }
-              ]
-            }
-          },
-          {
-            "type": "actionWidget",
-            "behaviour": "native",
-            "action": "Hello Again Native",
-            "component": {
-              "type": "fixedListWidget",
-              "mainAxisAlignment": "center",
-              "crossAxisAlignment": "center",
-              "components": [
-                {
-                  "type": "blockWidget",
-                  "backgroundColor": "actionBackground",
-                  "borderColor": "black",
-                  "borderWidth": 1,
-                  "borderRadius": 20,
-                  "components": [{
+                    "backgroundColor": "actionBackground",
+                    "borderColor": "black",
+                    "borderWidth": 1,
+                    "borderRadius": 20,
+                    "components": [
+                      {
+                        "type": "blockWidget",
+                        "padding": [
+                          "s",
+                          "s",
+                          "s",
+                          "s"
+                        ],
+                        "components": [
+                          {
+                            "type": "iconWidget",
+                            "color": "actionIcon",
+                            "value": "efc2",
+                            "size": 24,
+                            "font": "IcoFont"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "type": "blockWidget",
-                    "padding": ["s","s","s","s"],
-                    "components": [{
-                      "type": "iconWidget",
-                      "color": "actionIcon",
-                      "value": "efd1",
-                      "size": 24,
-                      "font": "IcoFont"
-                    }]
-                  }]
-                },
-                {
-                  "type": "blockWidget",
-                  "padding": ["", "s", "", ""],
-                  "components": [{
-                    "type": "textWidget",
-                    "text": "Transfer",
-                    "style": "headingS",
-                    "color": "actionText"
-                  }]
-                }
-              ]
-            }
-          },
-          {
-            "type": "actionWidget",
-            "behaviour": "system",
-            "action": "https://google.com",
-            "component": {
-              "type": "fixedListWidget",
-              "mainAxisAlignment": "center",
-              "crossAxisAlignment": "center",
-              "components": [
-                {
-                  "type": "blockWidget",
-                  "backgroundColor": "actionBackground",
-                  "borderColor": "black",
-                  "borderWidth": 1,
-                  "borderRadius": 20,
-                  "components": [{
+                    "padding": [
+                      "",
+                      "s",
+                      "",
+                      ""
+                    ],
+                    "components": [
+                      {
+                        "type": "textWidget",
+                        "text": "Deposit",
+                        "style": "headingS",
+                        "color": "actionText"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "actionWidget",
+              "behaviour": "native",
+              "action": "Hello Again Native",
+              "component": {
+                "type": "fixedListWidget",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "components": [
+                  {
                     "type": "blockWidget",
-                    "padding": ["s","s","s","s"],
-                    "components": [{
-                      "type": "iconWidget",
-                      "color": "actionIcon",
-                      "value": "ef50",
-                      "size": 24,
-                      "font": "IcoFont"
-                    }]
-                  }]
-                },
-                {
-                  "type": "blockWidget",
-                  "padding": ["", "s", "", ""],
-                  "components": [{
-                    "type": "textWidget",
-                    "text": "Info",
-                    "style": "headingS",
-                    "color": "actionText"
-                  }]
-                }
-              ]
+                    "backgroundColor": "actionBackground",
+                    "borderColor": "black",
+                    "borderWidth": 1,
+                    "borderRadius": 20,
+                    "components": [
+                      {
+                        "type": "blockWidget",
+                        "padding": [
+                          "s",
+                          "s",
+                          "s",
+                          "s"
+                        ],
+                        "components": [
+                          {
+                            "type": "iconWidget",
+                            "color": "actionIcon",
+                            "value": "efd1",
+                            "size": 24,
+                            "font": "IcoFont"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "blockWidget",
+                    "padding": [
+                      "",
+                      "s",
+                      "",
+                      ""
+                    ],
+                    "components": [
+                      {
+                        "type": "textWidget",
+                        "text": "Transfer",
+                        "style": "headingS",
+                        "color": "actionText"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "actionWidget",
+              "behaviour": "system",
+              "action": "https://google.com",
+              "component": {
+                "type": "fixedListWidget",
+                "mainAxisAlignment": "center",
+                "crossAxisAlignment": "center",
+                "components": [
+                  {
+                    "type": "blockWidget",
+                    "backgroundColor": "actionBackground",
+                    "borderColor": "black",
+                    "borderWidth": 1,
+                    "borderRadius": 20,
+                    "components": [
+                      {
+                        "type": "blockWidget",
+                        "padding": [
+                          "s",
+                          "s",
+                          "s",
+                          "s"
+                        ],
+                        "components": [
+                          {
+                            "type": "iconWidget",
+                            "color": "actionIcon",
+                            "value": "ef50",
+                            "size": 24,
+                            "font": "IcoFont"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "blockWidget",
+                    "padding": [
+                      "",
+                      "s",
+                      "",
+                      ""
+                    ],
+                    "components": [
+                      {
+                        "type": "textWidget",
+                        "text": "Info",
+                        "style": "headingS",
+                        "color": "actionText"
+                      }
+                    ]
+                  }
+                ]
+              }
             }
-          }
-        ]
-      }]
+          ]
+        }
+      ]
     }
+  },
+  "settings": {
+    "backgroundColor": "mainBackground"
   },
   "components": [
     {
       "type": "blockWidget",
-      "padding": ["l","l","l","l"],
-      "components": [{
-        "type": "listWidget",
-        "dataSource": "$transactions",
-        "template": {
-          "type": "blockWidget",
-          "padding": ["","m","","m"],
-          "components": [{
-            "type": "fixedHorizontalListWidget",
+      "padding": [
+        "l",
+        "l",
+        "l",
+        "l"
+      ],
+      "components": [
+        {
+          "type": "listWidget",
+          "dataSource": "$transactions",
+          "template": {
+            "type": "blockWidget",
+            "padding": [
+              "",
+              "m",
+              "",
+              "m"
+            ],
             "components": [
               {
-                "type": "imageWidget",
-                "image": "$transactions.profileImage",
-                "width": 50,
-                "height": 50,
-                "cornerRadius": 25
-              },
-              {
-                "type": "blockWidget",
-                "flex": 1,
-                "padding": ["l", "s", "", ""],
-                "components": [{
-                  "type": "fixedListWidget",
-                  "components": [
-                    {
-                      "type": "fixedHorizontalListWidget",
-                      "mainAxisAlignment": "spaceBetween",
-                      "components": [
-                        {
-                          "type": "blockWidget",
-                          "flex": 7,
-                          "components": [{
-                            "type": "textWidget",
-                            "text": "$transactions.details",
-                            "maxLines": 1,
-                            "overflow": "ellipsis",
-                            "style": "headingL",
-                            "color": "mainText"
-                          }]
-                        },
-                        {
-                          "type": "blockWidget",
-                          "flex": 3,
-                          "components": [{
-                            "type": "textWidget",
-                            "text": "$transactions.amount",
-                            "style": "headingL",
-                            "color": "mainText"
-                          }]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "blockWidget",
-                      "padding": ["", "s", "", ""],
-                      "components": [{
-                        "type": "fixedHorizontalListWidget",
-                        "mainAxisAlignment": "spaceBetween",
+                "type": "fixedHorizontalListWidget",
+                "components": [
+                  {
+                    "type": "imageWidget",
+                    "image": "$transactions.profileImage",
+                    "width": 50,
+                    "height": 50,
+                    "cornerRadius": 25
+                  },
+                  {
+                    "type": "blockWidget",
+                    "flex": 1,
+                    "padding": [
+                      "l",
+                      "s",
+                      "",
+                      ""
+                    ],
+                    "components": [
+                      {
+                        "type": "fixedListWidget",
                         "components": [
                           {
-                            "type": "textWidget",
-                            "text": "$transactions.when",
-                            "style": "headingS",
-                            "color": "altText"
+                            "type": "fixedHorizontalListWidget",
+                            "mainAxisAlignment": "spaceBetween",
+                            "components": [
+                              {
+                                "type": "blockWidget",
+                                "flex": 7,
+                                "components": [
+                                  {
+                                    "type": "textWidget",
+                                    "text": "$transactions.details",
+                                    "maxLines": 1,
+                                    "overflow": "ellipsis",
+                                    "style": "headingL",
+                                    "color": "mainText"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "blockWidget",
+                                "flex": 3,
+                                "components": [
+                                  {
+                                    "type": "textWidget",
+                                    "text": "$transactions.amount",
+                                    "style": "headingL",
+                                    "color": "mainText"
+                                  }
+                                ]
+                              }
+                            ]
                           },
                           {
-                            "type": "textWidget",
-                            "text": "$transactions.originalAmount",
-                            "style": "headingS",
-                            "color": "mainText"
+                            "type": "blockWidget",
+                            "padding": [
+                              "",
+                              "s",
+                              "",
+                              ""
+                            ],
+                            "components": [
+                              {
+                                "type": "fixedHorizontalListWidget",
+                                "mainAxisAlignment": "spaceBetween",
+                                "components": [
+                                  {
+                                    "type": "textWidget",
+                                    "text": "$transactions.when",
+                                    "style": "headingS",
+                                    "color": "altText"
+                                  },
+                                  {
+                                    "type": "textWidget",
+                                    "text": "$transactions.originalAmount",
+                                    "style": "headingS",
+                                    "color": "mainText"
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
-                      }]
-                    }
-                  ]
-                }]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
-          }]
+          }
         }
-      }]
+      ]
     }
   ]
 }
